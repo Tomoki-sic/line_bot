@@ -1,1 +1,1 @@
-web: gunicorn line_bot.wsgi
+web: gunicorn mysite.wsgi
