@@ -1,0 +1,62 @@
+{
+    "replyToken": "b25b6af9f32c47ac9c901e7b80c17b92",
+    "messages": [
+        {
+            "type": "template",
+            "altText": "\u304a\u3059\u3059\u3081\u30ec\u30b9\u30c8\u30e9\u30f3",
+            "template": {
+                "type": "carousel",
+                "columns": [
+                    {
+                        "thumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/lineapitest/hamburger_240.jpeg",
+                        "title": "\u30b8\u30e3\u30f3\u30af\u30fb\u30d0\u30fc\u30ac\u30fc",
+                        "text": "\u8ab0\u304c\u4f55\u3068\u8a00\u304a\u3046\u3068\u30b8\u30e3\u30f3\u30af\u30d5\u30fc\u30c9\u306e\u738b\u69d8\u306f\u3001\u4eca\u3082\u6614\u3082\u5909\u308f\u3089\u305a\u30cf\u30f3\u30d0\u30fc\u30ac\u30fc\u3002",
+                        "actions": [
+                            {
+                                "type": "uri",
+                                "label": "\u8a73\u7d30\u3092\u898b\u308b",
+                                "uri": "http://example.com/page/222"
+                            }
+                        ]
+                    },
+                    {
+                        "thumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/lineapitest/pizza_240.jpeg",
+                        "title": "pizza cap",
+                        "text": "\u672c\u5834\u30ca\u30dd\u30ea\u306e\u5473\u3092\u65e9\u304f\u3001\u5b89\u304f\u3002\u90fd\u5185\u306b17\u5e97\u8217\u5c55\u958b\u3059\u308b\u30d4\u30b6\u5c02\u9580\u5e97\u3067\u3059\u3002",
+                        "actions": [
+                            {
+                                "type": "uri",
+                                "label": "\u8a73\u7d30\u3092\u898b\u308b",
+                                "uri": "http://example.com/page/222"
+                            }
+                        ]
+                    },
+                    {
+                        "thumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/lineapitest/bread_240.jpeg",
+                        "title": "\u672c\u683c\u30d1\u30f3\u5de5\u623f \u305f\u3051\u3088\u3057",
+                        "text": "\u30d1\u30f3\u306b\u3068\u3063\u3066\u4e00\u756a\u5927\u4e8b\u3060\u3068\u601d\u3046\u3082\u306e\u306f\u306a\u3093\u3067\u3059\u304b\uff1f\u305f\u3051\u3088\u3057\u306f\u3001\u8868\u9762\u306e\u713c\u304d\u4e0a\u304c\u308a\u3053\u305d\u304c\u547d\u3067\u3042\u308b\u3068\u8003\u3048\u3066\u3044\u307e\u3059\u3002",
+                        "actions": [
+                            {
+                                "type": "uri",
+                                "label": "\u8a73\u7d30\u3092\u898b\u308b",
+                                "uri": "http://example.com/page/222"
+                            }
+                        ]
+                    },
+                    {
+                        "thumbnailImageUrl": "https://s3-us-west-2.amazonaws.com/lineapitest/harumaki_240.jpeg",
+                        "title": "\u30f4\u30a7\u30c8\u30ca\u30e0Tokyo",
+                        "text": "\u6771\u6c60\u888b\u306b\u3042\u308b\u3057\u305f\u30d9\u30c8\u30ca\u30e0\u6599\u7406\u306e\u8001\u8217\u300240\u5e74\u4ee5\u4e0a\u4eba\u3005\u306b\u611b\u3055\u308c\u7d9a\u3051\u3066\u304d\u305f\u30d9\u30c8\u30ca\u30e0\u6599\u7406\u3092\u3054\u63d0\u4f9b\u3057\u307e\u3059\u3002",
+                        "actions": [
+                            {
+                                "type": "uri",
+                                "label": "\u8a73\u7d30\u3092\u898b\u308b",
+                                "uri": "http://example.com/page/222"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -12,20 +12,17 @@ from line_bot.Hotpepper import Hotpepper
 def message(request):
     if request.method == 'POST':
         request = json.loads(request.body.decode('utf-8'))
-        print("-------------------------")
-        print(request)
         if len(request['events'])!=0:
             data = request['events'][0]
             reply_token = data['replyToken']
-            message = data['message']           
+            message = data['message']
+            obj = Hotpepper()      
             if message['type']=='text':    
-                line_message = LineMessage(create_single_text_message(message['text']))
+                line_message = LineMessage(obj.serch_keyword(message['text']))
             elif message['type']=='location':
                 #経度と緯度を獲得
-                obj = Hotpepper()
                 #ショップのリストを獲得
-                result = obj.get_shop_name_list(message['latitude'], message['longitude'])
-                line_message = LineMessage(create_single_text_message(result))
+                line_message = LineMessage(obj.get_shop_list(message['latitude'], message['longitude']))
             else:
                  line_message = LineMessage(create_single_text_message('error'))
             line_message.reply(reply_token)

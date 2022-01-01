@@ -1,0 +1,74 @@
+{
+    "replyToken": "d9679a67669a432f8a620af7fc39b6a3",
+    "messages": [
+        {
+            "type": "template",
+            "altText": "\u304a\u3059\u3059\u3081\u30ec\u30b9\u30c8\u30e9\u30f3",
+            "template": {
+                "type": "carousel",
+                "columns": [
+                    {
+                        "thumbnailImageUrl": "https://imgfp.hotp.jp/IMGH/46/49/P010334649/P010334649_69.jpg",
+                        "title": "\u70ad\u5bb6 \u8607\u6211",
+                        "text": "\u548c\u725bA5\u30e9\u30f3\u30af \u4e03\u8f2a",
+                        "actions": [
+                            {
+                                "type": "uri",
+                                "label": "\u8a73\u7d30\u3092\u898b\u308b",
+                                "uri": "https://www.hotpepper.jp/strJ000188396/?vos=nhppalsa000016"
+                            }
+                        ]
+                    },
+                    {
+                        "thumbnailImageUrl": "https://imgfp.hotp.jp/SYS/cmn/images/common/diary/custom/m30_img_noimage.gif",
+                        "title": "\u4e2d\u83ef\u30c0\u30a4\u30cb\u30f3\u30b0 \u6842\u5f69\u9b5a",
+                        "text": "\u9b45\u60d1\u306e\u304f\u3064\u308d\u304e\u7a7a\u9593 \u548c\u3084\u304b\u306a\u3072\u3068\u3068\u304d\u3092",
+                        "actions": [
+                            {
+                                "type": "uri",
+                                "label": "\u8a73\u7d30\u3092\u898b\u308b",
+                                "uri": "https://www.hotpepper.jp/strJ000811827/?vos=nhppalsa000016"
+                            }
+                        ]
+                    },
+                    {
+                        "thumbnailImageUrl": "https://imgfp.hotp.jp/SYS/cmn/images/common/diary/custom/m30_img_noimage.gif",
+                        "title": "\u30ab\u30e9\u30c0\u3092\u306f\u3050\u304f\u3080\u30ec\u30b9\u30c8\u30e9\u30f3 \u30b3\u30c8\u30b3\u30c8",
+                        "text": "",
+                        "actions": [
+                            {
+                                "type": "uri",
+                                "label": "\u8a73\u7d30\u3092\u898b\u308b",
+                                "uri": "https://www.hotpepper.jp/strJ001265611/?vos=nhppalsa000016"
+                            }
+                        ]
+                    },
+                    {
+                        "thumbnailImageUrl": "https://imgfp.hotp.jp/IMGH/30/24/P036103024/P036103024_69.jpg",
+                        "title": "\u523a\u8eab\u3068\u4e3c\u3076\u308a \u304b\u307f\u3084\u304b\u305f",
+                        "text": "\u5e97\u4e3b\u304a\u3059\u3059\u3081\u3054\u5f53\u5730\u713c\u914e \u304a\u5f97\u306a\u30fb\u30fb\u30dc\u30c8\u30eb\u30ad\u30fc\u30d7\uff01",
+                        "actions": [
+                            {
+                                "type": "uri",
+                                "label": "\u8a73\u7d30\u3092\u898b\u308b",
+                                "uri": "https://www.hotpepper.jp/strJ000731145/?vos=nhppalsa000016"
+                            }
+                        ]
+                    },
+                    {
+                        "thumbnailImageUrl": "https://imgfp.hotp.jp/SYS/cmn/images/common/diary/custom/m30_img_noimage.gif",
+                        "title": "\u4e2d\u83ef\u6599\u7406 \u9999\u5473\u5c4b \u8607\u6211\u767d\u65d7\u5e97",
+                        "text": "\u6e80\u8db3\u5ea6\u25ce2h\u98f2\u653e\u4ed82860\u5186\uff5e \u5c0f\u4e0a\u304c\u308a\u306e\u5ea7\u6577\u3082\u4eba\u6c17\u25ce",
+                        "actions": [
+                            {
+                                "type": "uri",
+                                "label": "\u8a73\u7d30\u3092\u898b\u308b",
+                                "uri": "https://www.hotpepper.jp/strJ001261243/?vos=nhppalsa000016"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

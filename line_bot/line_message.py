@@ -1,7 +1,9 @@
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 import urllib.request
-import json
+import json, datetime
+from django.template.loader import render_to_string, get_template
+import requests
 
 REPLY_ENDPOINT_URL = "https://api.line.me/v2/bot/message/reply"
 ACCESSTOKEN = 'zgWR+C034WpP0DQi55Yfejf5rn8GR5q7Er8fftyE9otNZz41YRCsxNTozulsTvINzdIsSvUrnT+0eXqPqa0SgW48ztw4Q3b1EtlznZKiCgxn/Dap+qWkZUpyj15kqs5YECC25q/0Gs43YT6DcimPGgdB04t89/1O/w1cDnyilFU='
@@ -14,20 +16,14 @@ class LineMessage():
     def __init__(self, messages):
         self.messages = messages
 
+
     def reply(self, reply_token):
         body = {
-            'replyToken': reply_token,
-            'messages': self.messages
+            "replyToken": reply_token,
+            "messages": self.messages
         }
-        print(body)
-        req = urllib.request.Request(REPLY_ENDPOINT_URL, json.dumps(body).encode(), HEADER)
-        try:
-            with urllib.request.urlopen(req) as res:
-                body = res.read()
-        except urllib.error.HTTPError as err:
-            print(err)
-        except urllib.error.URLError as err:
-            print(err.reason)
+        print(json.dumps(body).replace("True","true"))
+        req = requests.post(REPLY_ENDPOINT_URL, headers=HEADER, data=json.dumps(body).replace("True","true"))
 
 def create_single_text_message(message):
     test_message = [
@@ -37,3 +33,18 @@ def create_single_text_message(message):
                 }
             ]
     return test_message
+
+
+def create_list_text_message(message):
+    text = ''
+    for mes in message:
+        text += (mes+',')
+    print(text)
+    test_message = [
+                {
+                    'type': 'text',
+                    'text': text
+                }
+            ]
+    return test_message
+
